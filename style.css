@@ -4,3 +4,26 @@ body {
   font-size: 16px;
   font-family: Helvetica;
 }
+
+/* Header */
+
+header {
+  height: 5rem;
+  width: 100%;
+  background-color: #D2B48C;
+}
+
+.logo {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 2rem;
+}
+
+.logo span {
+  font-size: 2rem;
+  font-weight: 700;
+}
