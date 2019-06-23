@@ -1,16 +1,23 @@
 /* Universal Styles */
 
 body {
-  font-size: 16px;
-  font-family: Helvetica;
+  font-size: 14px;
+  font-family: Verdana;
 }
 
 /* Header */
 
 header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
   height: 5rem;
   width: 100%;
   background-color: #D2B48C;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid black 1px;
 }
 
 .logo {
@@ -21,9 +28,139 @@ header {
 
 .logo img {
   margin-left: 2rem;
+  padding-right: 15px;
+  border-right: solid black 1px;
+  color: MediumAquamarine;
 }
 
 .logo span {
-  font-size: 2rem;
+  font-size: 14px;
   font-weight: 700;
+  margin-left: 15px;
 }
+
+header .nav {
+  width: 250px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+header .nav a {
+  color: black;
+  text-decoration: none;
+}
+
+/* container */
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* Large-column */
+
+.large-column {
+  display: flex;
+  flex-wrap: wrap;
+  width: 630px;
+  margin-top: 20px;
+  border: solid blue 1px;
+}
+
+.main-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./resources/img-story-main.png);
+  height: 300px;
+}
+
+.main-headline span {
+  font-family: Georgia
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.second-story {
+  width: 300px;
+}
+
+.second-story .image-item {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./resources/img-story-2.png);
+}
+
+.second-story .image-item h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.third-story {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.third-story .image-item {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./resources/img-story-3.png);
+}
+
+.third-story .image-item h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Second-column */
+
+.second-column {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.second-column .fbi-story h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+}
+
+.cat-story {
+  margin-top: 30px;
+}
+
+.second-column .cat-story .image-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-image: url(./resources/img-story-1.png)
+}
+
+.second-column .cat-story h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Third-column */
