@@ -13,6 +13,8 @@ header {
   justify-content: space-between;
   height: 5rem;
   width: 100%;
+  position: fixed;
+  top: 0;
   background-color: #D2B48C;
   font-family: Verdana;
   font-size: 14px;
@@ -57,6 +59,7 @@ header .nav a {
 .container {
   display: flex;
   width: 100%;
+  margin-top: 5rem;
 }
 
 /* Large-column */
@@ -164,3 +167,36 @@ header .nav a {
 }
 
 /* Third-column */
+
+.third-column {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: solid blue 1px;
+  margin-left: 30px;
+}
+
+.third-column .bites {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: tan;
+  line-height: 3rem;
+}
+
+.bites span {
+  border-bottom: solid black 1px;
+}
+
+
+/* Footer */
+
+footer {
+  height: 100px;
+  background-color: tan;
+}
