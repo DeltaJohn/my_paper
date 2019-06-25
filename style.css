@@ -12,7 +12,8 @@ header {
   align-content: center;
   justify-content: space-between;
   height: 5rem;
-  width: 100%;
+  width: 1262px;
+  margin-left: 32px;
   position: fixed;
   top: 0;
   background-color: #D2B48C;
@@ -29,7 +30,7 @@ header {
 }
 
 .logo img {
-  margin-left: 2rem;
+  margin-left: 32px;
   padding-right: 15px;
   border-right: solid black 1px;
   color: MediumAquamarine;
@@ -39,6 +40,7 @@ header {
   font-size: 14px;
   font-weight: 700;
   margin-left: 15px;
+  margin-right: 32px;
 }
 
 header .nav {
@@ -46,7 +48,7 @@ header .nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 header .nav a {
@@ -60,6 +62,7 @@ header .nav a {
   display: flex;
   width: 100%;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 /* Large-column */
@@ -69,6 +72,8 @@ header .nav a {
   flex-wrap: wrap;
   width: 630px;
   margin-top: 20px;
+  margin-right: 32px;
+  margin-left: 32px;
   border: solid blue 1px;
 }
 
@@ -135,7 +140,7 @@ header .nav a {
 
 .second-column {
   width: 300px;
-  margin-left: 30px;
+  margin-right: 32px;
 }
 
 .second-column .fbi-story h2 {
@@ -174,7 +179,7 @@ header .nav a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 30px;
+  margin-right: 32px;
 }
 
 .News-Bites {
@@ -210,18 +215,25 @@ header .nav a {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 300px;
   background-color: tan;
+}
+
+footer .first-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .title {
   margin-right: 10px;
   padding-right:10px;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1rem;
+  font-size: 1.0rem;
+  line-height: 1.0rem;
   border-right: solid black 1px;
 }
 
